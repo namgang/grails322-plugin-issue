@@ -35,11 +35,13 @@ grails> clean
 grails> run-app
 ```
 
-* Click *pingController*
-* Fill in *Say Hi* with an arbitrary string
+* Under *Available Controllers*, click *ping.PingController*
+* Click *New Ping*
+* Fill in *Say Hi* with an arbitrary string and click *Create*
 * Watch the *show* view
 
-In the show view you will see "== ==" to the far left above the *Say Hi* property value.
+In the show view you will see *Pong says:* to the far left above the *Say Hi* property value.
+In this case it doesn't say anything, there is nothing after *Pong says:*.
 
 # Using the Handcrafted Jar
 
@@ -50,6 +52,6 @@ If you rebuild pong the handcrafted jar will be overwritten.
 
 This time you should be able to see the following differences.
 * Output from *pong* on standard out as the app starts up
-* The *show* view should now contain a message between those "== ==" markers.
+* The *show* view should now contain a message after *Pong says:*, repeating your input
 
 If you see this output it means that the plugin is loaded and works.
