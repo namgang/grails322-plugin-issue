@@ -40,7 +40,7 @@ grails> run-app
 * Fill in *Say Hi* with an arbitrary string and click *Create*
 * Watch the *show* view
 
-In the show view you will see *Pong says:* to the far left above the *Say Hi* property value.
+In the show view you will see *Pong says:* to the far left, above the *Say Hi* property value.
 In this case it doesn't say anything, there is nothing after *Pong says:*.
 
 # Using the Handcrafted Jar
@@ -50,8 +50,10 @@ Copy the handcrafted jar into your Maven cache, replacing the original `pong-0.1
 Run the ping app, repeating the above steps for *ping*, but don't do anything to pong.
 If you rebuild pong the handcrafted jar will be overwritten.
 
+Run the *ping* app again.
 This time you should be able to see the following differences.
 * Output from *pong* on standard out as the app starts up
+* Input a new *Say Hi* value like the previous time
 * The *show* view should now contain a message after *Pong says:*, repeating your input
 
 If you see this output it means that the plugin is loaded and works.
