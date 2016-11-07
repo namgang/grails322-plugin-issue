@@ -42,7 +42,7 @@ grails> run-app
 * Fill in *Say Hi* with an arbitrary string and click *Create*
 * Watch the *show* view
 
-During startup you should see output on standard out from the plugin
+During startup you should see output on standard out from the pong plugin
 that shows it is being loaded.
 
 The *show* view should essentially echo your input.
@@ -52,7 +52,7 @@ and works as expected.
 
 ## Test Run 2
 Build and install the pong plugin to your local Maven cache.
-Notice the slightly different gradle command.
+**Notice the slightly different gradle command.**
 ```bash
 cd pong
 gradle clean build install
