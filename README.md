@@ -2,6 +2,8 @@
 Samples to show how subtly plugin generation toggles between
 plain jar output and a Boot repackaged jar.
 Originally I thought this was a problem in Grails 3.2.2, but that's not the case.
+Grails 3.1.11 behaves the same way.
+
 This issue has no relationship to Grails 2.
 
 # Directories
