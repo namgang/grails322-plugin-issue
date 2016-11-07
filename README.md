@@ -72,9 +72,11 @@ grails> run-app
 * Fill in *Say Hi* with an arbitrary string and click *Create*
 * Watch the *show* view
 
-This time there won't be any startup output on standard out
-because the plugin is not loaded.
+The behaviour is different:
+* No output on standard out during startup
+* The *show* view does not echo your input
 
-You can run the app, but the *show* view does not echo your input.
-
-The reason is that the pong plugin is silently discarded.
+The reason is that the pong plugin is never loaded.
+It is discarded because it was generated as a Boot repackaged jar.
+There is a WARN log message during startup, but you won't see it without
+changing log levels in the logging configuration.
