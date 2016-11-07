@@ -1,5 +1,7 @@
 # grails322-plugin-issue
-Samples to show loading problem for a Grails 3.2.2 plugin.
+Samples to show how subtly plugin generation toggles between
+plain jar output and a Boot repackaged jar.
+Originally I thought this was a problem in Grails 3.2.2, but that's not the case.
 This issue has no relationship to Grails 2.
 
 # Directories
