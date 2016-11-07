@@ -13,6 +13,7 @@ This issue has no relationship to Grails 2.
 # Usage
 The following text describes how to build and run the app with its plugin.
 Two test cases are described.
+They may be run in any order.
 
 ## Setup
 You are supposed to setup a Grails environment to use the selected Grails version.
